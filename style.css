@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Inconsolata', monospace;
+    background-color: #000;
+}
+
+.navbar{
+    padding: 30px 0;
+    background-color: rgb(186, 122, 54);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.navbar h1{
+    font-size: 2em;
+    margin-left: 30px;
+}
+
+.navbar span{
+    background-color: rgb(0, 87, 0);
+    color: white;
+    padding: 5px;
+}
+
+.navbar form{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-right: 30px;
+    position: relative;
+
+    
+}
+
+.navbar input {
+    border:none;
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    
+}
+
+.navbar button{
+    background:none;
+    border: none;
+    position: absolute;
+    right: 5px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    margin: 15px auto;
+}
+
+.character{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    padding: 5px;
+    background-color: rgb(186, 122, 54);
+    border-radius: 10px;
+}
+
+
+.details{
+    background-color: rgba(255, 255, 255, 0.804);
+    border-radius: 0px 5px 0px 5px;
+    padding:0px 10px;
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+    margin-bottom: 3px;
+}
+
+.info img{
+    border-radius: 10px;
+}
