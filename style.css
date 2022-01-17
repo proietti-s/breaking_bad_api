@@ -89,6 +89,12 @@ body{
     margin-bottom: 3px;
 }
 
+.details:hover{
+    cursor: pointer;
+    transform: translate(12px, -9px) scale(1.2);
+    transition-duration: 0.3s;
+}
+
 .info img{
     border-radius: 10px;
 }
