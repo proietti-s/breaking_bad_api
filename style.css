@@ -31,6 +31,15 @@ body{
     color: white;
     padding: 5px;
 }
+.navbar_menu {
+    display: flex;
+    flex-direction: column;
+    list-style:square;
+}
+
+.navbar_menu a{
+    color: white;
+}
 
 .navbar form{
     display: flex;
@@ -65,6 +74,7 @@ body{
     align-items: center;
     justify-content: space-around;
     margin: 15px auto;
+    position: relative;
 }
 
 .character{
@@ -97,4 +107,24 @@ body{
 
 .info img{
     border-radius: 10px;
+}
+
+.modal{
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.5;
+    background: rgb(220, 76, 76);
+    position: absolute;
+    z-index: 2;
+    top:20vh
+
+}
+
+.modal_content{
+    display: block;
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
 }
